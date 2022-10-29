@@ -1,0 +1,21 @@
+.overlay__title{
+    text-align: center;
+    font-family: "Inter black";
+    font-size: 72px;
+    line-height: 106%;
+    color: #FFFDFD;
+    z-index: 1;
+}
+
+.overlay__title:hover ~ .overlay__img{
+    opacity: 0.3;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .overlay__title{
+      font-size: 32px;
+      line-height: 109%;
+      max-width: 288px;
+      justify-self: center;
+    }
+}

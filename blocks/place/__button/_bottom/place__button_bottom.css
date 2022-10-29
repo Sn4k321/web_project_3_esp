@@ -1,0 +1,18 @@
+.place__button_bottom{
+    position: relative;
+    bottom: 50px;
+}
+
+@media screen and (min-width: 768x) and (max-width: 1287px) {
+    .place__button_bottom{
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__button_bottom{
+        position: relative;
+        bottom: 0;
+    }
+}

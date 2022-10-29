@@ -1,0 +1,24 @@
+.overlay__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    min-width: 198px;
+    min-height: 48px;
+    font-family: "Inter semibold";
+    font-size: 18px;
+    line-height: 1;
+    background-color: #0278FE;
+    color: #fff;
+    border-radius: 3px;
+    transition: background 0.1s ease 0s;
+    z-index: 3;
+}
+
+.overlay__link:hover {
+    background: #0063D2;
+}
+
+.overlay__link:hover + .overlay__img{
+    opacity: 0.3;
+}

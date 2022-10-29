@@ -1,10 +1,35 @@
-@import url(../blocks/page/page.css);
-@import url(../blocks/logo/logo.css);
+@import url(../vendor/normalize.css);
+@import url(../font/inter/InterWeb/inter.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
-
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/contenido/contenido.css);
+@import url(../blocks/contenido/__title/contenido__title.css);
+@import url(../blocks/contenido/__text/contenido__text.css);
+@import url(../blocks/contenido/__text/_font-size/contenido__text_font-size.css);
+@import url(../blocks/contenido/__author/contenido__author.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__img/photo-grid__img.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__grid/place__grid.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_berea/place__title_berea.css);
+@import url(../blocks/place/__img/place__img.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__heading/place__heading.css);
+@import url(../blocks/place/__artist/place__artist.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__button/place__button.css);
+@import url(../blocks/place/__button/_bottom/place__button_bottom.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/overlay/overlay.css);
+@import url(../blocks/overlay/__title/overlay__title.css);
+@import url(../blocks/overlay/__content/overlay__content.css);
+@import url(../blocks/overlay/__img/overlay__img.css);
+@import url(../blocks/overlay/__link/overlay__link.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -1,0 +1,13 @@
+.contenido__author{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .contenido__author{
+      line-height: 142%;
+      position: initial;
+    }
+}
