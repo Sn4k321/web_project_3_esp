@@ -3,7 +3,7 @@
     bottom: 50px;
 }
 
-@media screen and (min-width: 768x) and (max-width: 1287px) {
+@media screen and (min-width: 768px) and (max-width: 1287px) {
     .place__button_bottom{
         position: relative;
         bottom: 100px;
